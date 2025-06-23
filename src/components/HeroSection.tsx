@@ -80,7 +80,7 @@ const HeroSection = () => {
 
             <div className="bg-orange-500 text-white p-6 rounded-xl mb-8 shadow-lg">
               <div className="text-3xl font-bold mb-2">25,000 ₽</div>
-              <div className="text-lg">по факту перевода</div>
+              <div className="text-lg">Оплата по факту перевода</div>
             </div>
 
             {/* Quick contacts */}
