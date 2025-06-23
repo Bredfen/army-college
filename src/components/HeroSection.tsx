@@ -56,7 +56,7 @@ const HeroSection = () => {
       {/* Background image */}
       <div className="absolute inset-0 opacity-30">
         <img 
-          src="/images/student-graduate.jpg" 
+          src="/images/photo_2025-06-23_15-56-25.jpg" 
           alt="Студент с дипломом" 
           className="w-full h-full object-cover"
         />
@@ -75,12 +75,12 @@ const HeroSection = () => {
             </h2>
             
             <p className="text-lg mb-8 text-gray-300">
-              Если вашему ребёнку до <span className="font-semibold text-red-400">20 июля</span> выдают диплом — ещё не поздно.
+              Если вашему ребёнку выдают диплом выпускника колледжа – он сразу потеряет отсрочку от армии по образованию навсегда!<br/> Но ещё не поздно.
             </p>
 
             <div className="bg-orange-500 text-white p-6 rounded-xl mb-8 shadow-lg">
               <div className="text-3xl font-bold mb-2">25,000 ₽</div>
-              <div className="text-lg">Оплата по факту перевода</div>
+              <div className="text-lg">по факту перевода в другой колледж с сохранением отсрочки</div>
             </div>
 
             {/* Quick contacts */}

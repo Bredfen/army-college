@@ -218,7 +218,7 @@ const ContactSection = () => {
             
             <div className="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
               <div className="text-sm text-yellow-800">
-                <strong>⚠️ Внимание!</strong> До 20 июля осталось мало времени. 
+                <strong>⚠️ Внимание!</strong> До вручения дипломов осталось меньше двух недель! 
                 Чем раньше обратитесь — тем больше вариантов решения.
               </div>
             </div>

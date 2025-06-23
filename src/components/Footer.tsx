@@ -7,10 +7,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">ПереводВУЗ</h3>
+            <h3 className="text-xl font-bold mb-4">Кто мы</h3>
             <p className="text-gray-400 mb-4">
-              Профессиональные услуги по переводу студентов между учебными заведениями 
-              для продления отсрочки от армии.
+              Мы выпускники ведущих вузов Москвы. Наши дети и близкие столкнулись с проблемой потери  отсрочки от армии из за отчисления по неуспеваемости. И мы рады бесплатно консультировать родителей по возможностям сохранения отсрочки по образованию.
             </p>
             <div className="flex items-center gap-2 text-green-400 text-sm">
               <Shield className="w-4 h-4" />
@@ -80,7 +79,7 @@ const Footer = () => {
             
             <div className="mt-4 p-3 bg-red-900 rounded-lg">
               <div className="text-red-200 text-sm font-semibold">
-                ⏰ До 20 июля осталось мало времени!
+                ⏰ До вручения дипломов осталось меньше двух недель! 
               </div>
               <div className="text-red-300 text-xs">
                 Обращайтесь срочно
