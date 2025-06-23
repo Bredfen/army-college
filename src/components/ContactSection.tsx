@@ -17,7 +17,7 @@ const ContactSection = () => {
     e.preventDefault()
     // Здесь будет обработка отправки формы
     emailjs.send(
-      "service_foypops", 
+      "service_v04hnlp", 
       "template_3cg14hn", 
       formData, 
       "SSI3o48WsgrHpmjX9")

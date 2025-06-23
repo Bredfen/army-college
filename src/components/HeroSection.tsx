@@ -15,7 +15,7 @@ const HeroSection = () => {
     e.preventDefault()
     // Здесь будет обработка отправки формы
     emailjs.send(
-      "service_foypops", 
+      "service_v04hnlp", 
       "template_trcfeeo", 
       formData, 
       "SSI3o48WsgrHpmjX9")

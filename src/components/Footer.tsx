@@ -54,13 +54,13 @@ const Footer = () => {
                 <span>+7 926 080-89-83</span>
               </a>
               
-              <a 
+              {/* <a 
                 href="mailto:info@perevodvuz.ru"
                 className="flex items-center gap-2 text-gray-400 hover:text-purple-400 transition-colors"
               >
                 <Mail className="w-4 h-4" />
                 <span>info@perevodvuz.ru</span>
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -93,7 +93,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-sm">
-              © 2024 ПереводВУЗ. Все права защищены.
+              © 2025 ПереводВУЗ. Все права защищены.
             </div>
             
             <div className="flex gap-6 text-sm text-gray-400">
