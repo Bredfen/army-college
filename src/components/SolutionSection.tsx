@@ -17,11 +17,11 @@ const SolutionSection = () => {
     {
       icon: <CheckCircle className="w-8 h-8 text-blue-500" />,
       title: "Оформляем перевод",
-      description: "Переводим студента на нужную специальность с сохранением курса обучения"
+      description: "Переводим выпускника колледжа в другой колледж на курс ниже, что согласно Федеральному закону №273 – сохраняет отсрочку от армии и отбивает повестку, даже если она уже вам вручена"
     },
     {
       icon: <Shield className="w-8 h-8 text-blue-500" />,
-      title: "Консультируем по военкому",
+      title: "Консультируем по безопасному взаимодействию с военкоматом",
       description: "Формируем все необходимые документы и консультируем по взаимодействию с военкоматом"
     }
   ]
@@ -46,7 +46,7 @@ const SolutionSection = () => {
           </p>
         </div>
 
-        {/* Solution image */}
+        {/* Solution image
         <div className="mb-16">
           <img 
             src="/images/legal-consultation.jpg" 
@@ -54,7 +54,7 @@ const SolutionSection = () => {
             className="w-full max-w-4xl mx-auto rounded-2xl shadow-lg"
           />
         </div>
-
+          */}
         {/* Steps */}
         <div className="max-w-6xl mx-auto mb-16">
           <h3 className="text-2xl lg:text-3xl font-bold text-center mb-12 text-gray-800">
@@ -103,7 +103,7 @@ const SolutionSection = () => {
               
               <div className="bg-white rounded-lg p-4 shadow-sm">
                 <div className="font-semibold text-blue-600">1+ год</div>
-                <div className="text-gray-600">Дополнительное время на планы</div>
+                <div className="text-gray-600">Сохраняется отсрочка от армии через обучение</div>
               </div>
             </div>
           </div>
@@ -139,10 +139,10 @@ const SolutionSection = () => {
         <div className="text-center mt-16">
           <div className="bg-blue-600 text-white rounded-2xl p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">
-              Готовы помочь вашей семье
+              Не теряйте время - каждый день на счету!
             </h3>
             <p className="text-blue-100 mb-6">
-              Не теряйте время — каждый день на счету до 20 июля
+              После вручения диплома колледжа отсрочка от службы в армии пропадет навсегда
             </p>
             <button onClick={() => scrollToSection('targetSection')} className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg transition-all transform hover:scale-105">
               Получить консультацию сейчас

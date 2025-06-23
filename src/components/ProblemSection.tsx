@@ -10,7 +10,7 @@ const ProblemSection = () => {
   })
 
   useEffect(() => {
-    const targetDate = new Date('2025-07-20T00:00:00')
+    const targetDate = new Date('2025-07-02T00:00:00')
     
     const calculateTimeLeft = () => {
       const now = new Date()
@@ -35,18 +35,18 @@ const ProblemSection = () => {
   const problems = [
     {
       icon: <Shield className="w-8 h-8 text-red-500" />,
-      title: "По 273-ФЗ отсрочка больше не действует",
+      title: "По ФЗ №273 отсрочка больше не действует",
       description: "После получения диплома колледжа отсрочка от армии автоматически прекращается"
     },
     {
       icon: <AlertTriangle className="w-8 h-8 text-red-500" />,
-      title: "Автоматическое призывание",
-      description: "Сразу после выдачи диплома военкомат направляет повестку на призыв"
+      title: "Автоматический призыв в армию",
+      description: "Сразу после выдачи диплома военкомат направляет повестку на срочную службу в армии"
     },
     {
       icon: <BookOpen className="w-8 h-8 text-red-500" />,
       title: "Поздно поступать в ВУЗ",
-      description: "Даже если планировали учиться дальше — приёмная кампания уже началась"
+      description: "Согласно Федеральному закону №273 \«Об образовании в Российской Федерации\», даже поступив в вуз после колледжа вы получите повестку в армию и не сохраняете отсрочку "
     }
   ]
 
@@ -84,6 +84,10 @@ const ProblemSection = () => {
               <div className="text-sm text-gray-600">секунд</div>
             </div>
           </div>
+          <p className="text-xl text-gray-600 mb-8">
+            (выдача диплома колледжа = завершение отсрочки от армии по образованию по ФЗ №73)
+          </p>
+          
         </div>
 
         {/* Problems */}
@@ -111,11 +115,14 @@ const ProblemSection = () => {
           {/* Visual comparison */}
           <div className="mt-16 bg-white rounded-2xl p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-center mb-8 text-gray-800">
-              Было VS Стало
+              Что происходит после получения диплома колледжа и почему?
             </h3>
-            
-            <div className="grid md:grid-cols-2 gap-8">
-              {/* Before */}
+            <p className="text-xl text-gray-600 mb-8 text-center">
+            Согласно Федеральному закону №273 – отсрочка от армии по окончанию колледжа сгорает навсегда.
+          </p>
+
+            {/*<div className="grid md:grid-cols-2 gap-8">
+              
               <div className="text-center">
                 <div className="bg-green-100 rounded-xl p-6 mb-4">
                   <h4 className="text-xl font-semibold text-green-800 mb-4">БЫЛО (до изменений закона)</h4>
@@ -127,7 +134,7 @@ const ProblemSection = () => {
                 </div>
               </div>
               
-              {/* After */}
+              
               <div className="text-center">
                 <div className="bg-red-100 rounded-xl p-6 mb-4">
                   <h4 className="text-xl font-semibold text-red-800 mb-4">СТАЛО (сейчас)</h4>
@@ -138,7 +145,7 @@ const ProblemSection = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -8,14 +8,14 @@ const scrollToSection = (id: string) => {
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Анна Петрова",
+      name: "Анна Холжигитова",
       location: "Москва",
       text: "Огромное спасибо! Сын закончил колледж в июне, думали всё, теперь армия. Но ребята помогли с переводом всего за 4 дня. Сейчас продолжает учёбу и получает новую специальность. Очень довольны!",
       rating: 5,
       date: "Май 2024"
     },
     {
-      name: "Игорь Смирнов",
+      name: "Игорь Ладыжчук",
       location: "Санкт-Петербург", 
       text: "Были в панике — диплом уже на руках, а сын не готов к армии. Нашли эту компанию через друзей. Всё сделали быстро и профессионально. Рекомендую всем родителям в похожей ситуации.",
       rating: 5,
@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
       date: "Март 2024"
     },
     {
-      name: "Олег Васильев",
+      name: "Олег Беляев",
       location: "Новосибирск",
       text: "Сыну оставалось 2 недели до получения диплома. Думали уже поздно что-то предпринимать. Но ребята взялись и за 3 дня всё организовали. Теперь сын спокойно учится дальше. Очень благодарны!",
       rating: 5,
@@ -114,8 +114,8 @@ const TestimonialsSection = () => {
               </div>
               
               <div className="text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">5</div>
-                <div className="text-gray-600">Лет опыта</div>
+                <div className="text-3xl font-bold text-purple-600 mb-2">3</div>
+                <div className="text-gray-600">Года опыта</div>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@ const TestimonialsSection = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">
-              Присоединяйтесь к довольным клиентам
+              Получить бесплатную консультацию
             </h3>
             <p className="text-blue-100 mb-6">
               Мы поможем вашей семье так же, как помогли сотням других

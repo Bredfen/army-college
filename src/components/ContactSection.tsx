@@ -68,14 +68,14 @@ const ContactSection = () => {
       link: "https://wa.me/79260808983",
       color: "bg-green-500 hover:bg-green-600"
     },
-    {
-      icon: <Mail className="w-6 h-6" />,
-      title: "Email",
-      description: "Письменные консультации",
-      value: "info@perevodvuz.ru",
-      link: "mailto:info@perevodvuz.ru",
-      color: "bg-purple-500 hover:bg-purple-600"
-    }
+    // {
+    //   icon: <Mail className="w-6 h-6" />,
+    //   title: "Email",
+    //   description: "Письменные консультации",
+    //   value: "info@perevodvuz.ru",
+    //   link: "mailto:info@perevodvuz.ru",
+    //   color: "bg-purple-500 hover:bg-purple-600"
+    // }
   ]
 
   return (
@@ -128,7 +128,9 @@ const ContactSection = () => {
                 <div>Пн-Пт: 9:00 - 20:00</div>
                 <div>Сб-Вс: 10:00 - 18:00</div>
                 <div className="text-orange-400 font-semibold">
-                  Экстренные консультации 24/7
+                  До вручения дипломов осталось меньше двух недель! 
+                  <br />Успей сохранить отсрочку. 
+
                 </div>
               </div>
             </div>
