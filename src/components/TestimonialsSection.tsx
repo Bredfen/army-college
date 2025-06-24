@@ -110,7 +110,7 @@ const TestimonialsSection = () => {
               
               <div className="text-center">
                 <div className="text-3xl font-bold text-green-600 mb-2">500+</div>
-                <div className="text-gray-600">Семей помогли</div>
+                <div className="text-gray-600">Семьям уже помогли</div>
               </div>
               
               <div className="text-center">
