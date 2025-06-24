@@ -29,7 +29,7 @@ const ContactSection = () => {
       }
     }).catch((error) => {
       console.error("Failed to sending email:", error);
-      alert("Ошибка отправки формы!");
+      alert("Ошибка отправки формы!\nВоспользуйтесь другими источниками связи: WhatsApp или Telegram.");
     })
     // Обработано
     
