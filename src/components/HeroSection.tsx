@@ -2,6 +2,11 @@ import { useState } from 'react'
 import { Phone, MessageCircle } from 'lucide-react'
 import emailjs from '@emailjs/browser'
 import { error } from 'console'
+const isLocal = window.location.hostname === 'localhost'
+
+const API_URL = isLocal
+  ? 'http://localhost:3001'
+  : 'https://kollegearmy.online'
 
 const HeroSection = () => {
   const [formData, setFormData] = useState({
@@ -14,12 +19,13 @@ const HeroSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Здесь будет обработка отправки формы
-    emailjs.send(
-      "service_v04hnlp", 
-      "template_trcfeeo", 
-      formData, 
-      "SSI3o48WsgrHpmjX9")
-    .then((res) => {
+    fetch(`${API_URL}/headform`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        formData
+  })
+}).then((res) => {
       if (res.status == 200){
         console.log('Форма отправлена:', formData)
     alert('Спасибо! Мы свяжемся с вами в ближайшее время.')
@@ -28,7 +34,23 @@ const HeroSection = () => {
     }).catch((error) => {
       console.error("Failed to sending email:", error);
       alert("Ошибка отправки формы!\nВоспользуйтесь другими источниками связи: WhatsApp или Telegram.");
-    })
+    });
+    //emailлjs
+    // emailjs.send(
+    //   "service_v04hnlp", 
+    //   "template_trcfeeo", 
+    //   formData, 
+    //   "SSI3o48WsgrHpmjX9")
+    // .then((res) => {
+    //   if (res.status == 200){
+    //     console.log('Форма отправлена:', formData)
+    // alert('Спасибо! Мы свяжемся с вами в ближайшее время.')
+    // setFormData({ name: '', phone: '', form_type: 'bottom', date:''})
+    //   }
+    // }).catch((error) => {
+    //   console.error("Failed to sending email:", error);
+    //   alert("Ошибка отправки формы!\nВоспользуйтесь другими источниками связи: WhatsApp или Telegram.");
+    // })
     
   }
 
